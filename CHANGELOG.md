@@ -1,3 +1,9 @@
+## 1.23.2
+* Update ONNX Runtime to v1.23.2.
+* Android: remove manual `.so` files from `android/src/main/jniLibs/` and use Gradle dependency `com.microsoft.onnxruntime:onnxruntime-android:1.23.2`.
+* iOS: bump `onnxruntime-objc` pod from 1.22.0 to 1.23.2.
+
+
 ## 1.23.1
 * add libonnx 16kb compatible for x86 and x64
 
